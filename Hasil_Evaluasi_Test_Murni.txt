@@ -1,0 +1,19 @@
+=== LOG HASIL PENGUJIAN MURNI DATA TEST SPLIT ===
+
+Confusion Matrix:
+[[ 91   0   0   9]
+ [  0 100   0   0]
+ [  0   1  99   0]
+ [  1   0   3  96]]
+
+Laporan Metrik Kinerja Performa:
+              precision    recall  f1-score   support
+
+        dark       0.99      0.91      0.95       100
+       green       0.99      1.00      1.00       100
+       light       0.97      0.99      0.98       100
+      medium       0.91      0.96      0.94       100
+
+    accuracy                           0.96       400
+   macro avg       0.97      0.97      0.96       400
+weighted avg       0.97      0.96      0.96       400
